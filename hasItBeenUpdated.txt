@@ -1,0 +1,15 @@
+'''
+
+
+
+The purpose of this code is to see if a webpage has been updated.
+
+My idea to write it is to wget the url
+and then beautiful soup the page
+to determine what the current publish date is,
+without actually going to that page.
+
+'''
+
+wget -o https://data.sfgov.org/browse?q=311+cases  dataStatus.html
+
